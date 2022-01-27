@@ -1,0 +1,54 @@
+.card {
+    border: solid 1px rgb(228, 228, 228);
+    border-radius: 5px;
+    width: 300px;
+}
+
+.allArticle img {
+    width: 200px;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.bottomcard {
+    padding: 0 7%;
+}
+
+.bottomcard0 {
+    padding: 0 7%;
+    background-color: red;
+}
+
+.bottomcard1 {
+    padding: 0 7%;
+    background-color: orange;
+}
+
+.stocks {
+    margin: 0;
+}
+
+.card button {
+    width: 90px;
+    height: 40px;
+    background-color: #2CAD4D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #94c4a0;
+    color: rgb(78, 78, 78);
+}
+
+.none {
+    display: none;
+}
